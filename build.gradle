@@ -32,7 +32,7 @@ android {
     sourceSets {
         main {
             manifest.srcFile 'app/src/main/AndroidManifest.xml'
-            java.srcDirs += 'app/src/main/java/com/example/chenshuwang/weatherapp'
+            kotlin.srcDirs += 'app/src/main/kotlin/com/example/chenshuwang/weatherapp'
             res.srcDir('app/src/main/res')
         }
     }
